@@ -11,7 +11,7 @@ html,body{
     
 }
 body *{
-    transition: 2s;
+    transition: 1.5s;
 }
 section{
     height: 100vh;
@@ -65,7 +65,7 @@ section{
 }
 .right-section{
     padding-top: 10%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -74,7 +74,7 @@ section{
     margin: auto;
     height: 250px;
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.8s;
     background-color: var(--light-secondary);
     padding: 10%;
     font-family: 'Fira Sans', sans-serif;
@@ -116,6 +116,17 @@ section{
     fill: rgb(4, 4, 49);
     
     
+}
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin: auto;
+    margin-top: 5%;
+}
+.social-icon:hover{
+    zoom: 1.2;
+    cursor: pointer;
 }
 #qualification{
     background-color: cornflowerblue;

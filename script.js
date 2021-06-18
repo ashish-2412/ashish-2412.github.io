@@ -14,6 +14,7 @@ function setTheme(mode){
         document.getElementById('theme-style').href="dark.css";
         document.getElementById('moon').style.display="none"
         document.getElementById("sun").style.display = "inline";
+
     }
     if(mode==="light")
     {
