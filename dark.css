@@ -8,6 +8,15 @@
 #intro h1{
     color: antiquewhite;
 }
-.social-icon{
-    fill: white;
+
+.nav-link{
+    color: antiquewhite !important;
+}
+.nav-link:hover{
+    color:black !important; 
+}
+#about-me{
+    box-shadow: -63px -53px 3px -13px rgb(204, 204, 204);
+    -webkit-box-shadow: -63px -53px 3px -13px rgb(204, 204, 204);
+    -moz-box-shadow: -63px -53px 3px -13px rgb(204, 204, 204);
 }
