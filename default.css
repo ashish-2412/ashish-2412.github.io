@@ -1,0 +1,122 @@
+:root{
+    --light-secondary:#efece0;
+    --light-primary:#f5cd6a;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: san-serif;
+    
+}
+body *{
+    transition: 2s;
+}
+section{
+    height: 100vh;
+    text-align: center;
+    
+    scroll-snap-align: start;
+}
+.main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    
+}
+#intro{
+    background-color:var(--light-secondary);
+    padding-top: 5%;
+
+}
+#intro h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 65px;
+    color: #f2765b;
+}
+#detail-box{
+    width: 75%;
+    height: 650px;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 35px;
+    background-color: var(--light-primary);
+    
+}
+#detail-box .left-section{
+    height: 100%;
+    width: 50%;
+    padding-top: 8%;
+}
+#nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: #f2765b;
+
+}
+.detail-container{
+    display: flex;
+}
+.left-section img{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+}
+.right-section{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-me{
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: var(--light-secondary);
+    padding: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(70, 69, 69);
+    box-shadow: -63px -53px 3px -13px rgba(161,161,161,0.65);
+    -webkit-box-shadow: -63px -53px 3px -13px rgba(161,161,161,0.65);
+    -moz-box-shadow: -63px -53px 3px -13px rgba(161,161,161,0.65);
+}
+#about-me:hover{
+    width: 70%;
+    height: 300px;
+    padding: 13%;
+    
+}
+.theme-changer{
+    padding-top: 10%;
+    
+}
+
+.theme-changer #moon:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.theme-changer #sun:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.theme-changer #sun{
+    fill: #f5cd6a;
+    display: none;
+    
+}
+.theme-changer #moon{
+    fill: rgb(4, 4, 49);
+    
+    
+}
+#qualification{
+    background-color: cornflowerblue;
+}
