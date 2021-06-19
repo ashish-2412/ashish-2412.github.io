@@ -142,3 +142,20 @@ section{
 #qualification{
     background-color: cornflowerblue;
 }
+
+@media screen and (max-width: 768px) {
+   h1 {
+    font-size: 45px !important;
+    margin-top: 5%;
+    margin-bottom: 10%;
+   }
+   .detail-container{
+       display: block;
+   }
+   section{
+       height: 125vh;
+   }
+   .main{
+       height: 125vh;
+   }
+}
