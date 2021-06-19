@@ -25,6 +25,10 @@ section{
     height: 100vh;
     
 }
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
 .navbar{
     background-color: #f2765b;
 }
@@ -59,12 +63,7 @@ section{
     width: 50%;
     padding-top: 8%;
 }
-#nav-bar{
-    width: 100%;
 
-    background-color: #f2765b;
-
-}
 .detail-container{
     display: flex;
 }
@@ -172,5 +171,8 @@ section{
    }
    .social-links{
        width: 70%;
+   }
+   .nav-item{
+       margin-right: 0;
    }
 }
