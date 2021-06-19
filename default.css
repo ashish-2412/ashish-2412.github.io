@@ -152,10 +152,25 @@ section{
    .detail-container{
        display: block;
    }
-   section{
-       height: 125vh;
+   #detail-box .left-section, #detail-box .right-section{
+       width: 100%;
+       margin-bottom: 10%;
    }
    .main{
-       height: 125vh;
+       scroll-snap-type: none;
+   }
+   #intro{
+       height: fit-content;
+       padding-bottom: 10%;
+   }
+   #about-me{
+       width: 80%;
+       box-shadow: -16px -13px 7px -2px rgba(161,161,161,0.65);
+    -webkit-box-shadow: -16px -13px 7px -2px rgba(161,161,161,0.65);
+    -moz-box-shadow: -16px -13px 7px -2px rgba(161,161,161,0.65);
+    margin-bottom: 15%;
+   }
+   .social-links{
+       width: 70%;
    }
 }
